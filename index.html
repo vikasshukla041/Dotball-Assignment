@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dotball Assignment</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/validation.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">
+            <div class="company-logo">
+                <img src="./image/company-logo.svg" alt="company-logo"/>
+            </div>
+            <div class="navbar-list">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Blog</a>
+            </div>
+        </div>
+        <div class="body-container">
+            <div class="dotball-form">
+                <img src="./image/main-image2.png"/>
+                    <div class="company-name">
+                        <p class="center-company-name">Dotball</p>
+                        <p class="form-instruction">Fill the Form & Relax</p>
+                    </div>
+                    <div class="media-query">
+                        <p class="heading">For Enquries</p>
+                        <p class="sub-heading">Fill the Form & Relax</p>
+                    </div>
+                    <div class="fill-form">
+                        <input type="text" placeholder="Name" class="txt" id="name" onblur="checkSubmitButton(this);"/>
+                        <input type="email" placeholder="Email" class="txt" id="email" onblur="checkSubmitButton(this);"/>
+                        <input type="number" placeholder="Phone" class="txt" id="phone_number" onblur="checkSubmitButton(this);"/>
+                        <button type="button" class="submit" disabled id="formButton">Submit</button>
+                        <p id="errorMessage"></p>
+                    </div>
+            </div>
+            <div class="how-work">
+                <p class="heading">How its work</p>
+                <p class="sub-heading">Please review the form</p>
+                    <div class="block-items">
+                        <div class="block">
+                            <img src="./image/batsman.svg"/>
+                                <div class="block-item-content">
+                                        <p class="block-item-heading">Select Match</p>
+                                        <p class="block-sub-heading">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                </div>
+                        </div>
+                        <div class="block">
+                            <img src="./image/helmet.svg"/>
+                                <div class="block-item-content">
+                                        <p class="block-item-heading">Join Contest</p>
+                                        <p class="block-sub-heading">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                </div>
+                        </div>
+                        <div class="block">
+                            <img src="./image/trophy.svg"/>
+                            <div class="block-item-content">
+                                    <p class="block-item-heading">Win Money</p>
+                                    <p class="block-sub-heading">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="features">
+                <p class="heading">Features</p>
+                <p class="sub-heading">Please review the form</p>
+                    <div class="double-duel">
+                        <div class="double-duel-image">
+                            <img src="./image/double-duel.svg"/>
+                        </div>
+                        <div class="double-duel-content">
+                            <p class="heading">Double Duel</p>
+                            <p class="double-duel-sub-heading">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                        </div>
+                        <div class="double-duel-arrow">
+                            <span class="left-arrow"> > </span>
+                            <span class="right-arrow"> < </span>
+                        </div>
+                    </div>
+            </div>
+            <div class="group-circle">
+                <span class="big-circle"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+            </div>
+        </div>
+        <div class="footer">
+                <div class="footer-menu">
+                    <div class="home list">
+                        <a href="#" class="footer-heading">Home</a>
+                        <a href="#">How to Play</a>
+                        <a href="#">Reffer Friends</a>
+                        <a href="#">FQA</a>
+                        <a href="#">Terms & Conition</a>
+                    </div>
+                    <div class="Career list">
+                        <a href="#" class="footer-heading">Career</a>
+                        <a href="#">About us</a>
+                        <a href="#">Hiring</a>
+                    </div>
+                    <div class="Support list">
+                        <a href="#" class="footer-heading">Support</a>
+                        <a href="#">Contact us</a>
+                        <a href="#">Call us</a>
+                    </div>
+                    <div class="Account list">
+                        <a href="#" class="footer-heading">Account</a>
+                        <a href="#">Login</a>
+                        <a href="#">Create Account</a>
+                    </div>
+                </div>
+                <div class="social-site">
+                    <div class="social-icons">
+                        <img src="./image/facebook.svg"/>
+                        <img src="./image/twitter.svg"/>
+                        <img src="./image/insta.svg"/>
+                        <p class="copy-right"><smal>Copyright©2018 Private Limited. All rights reserved.</smal></p>
+                    </div>
+                    <!-- <div class="copy-right">
+                        <p>Copyright©2018 Private Limited. All rights reserved.</p>
+                    </div> -->
+                </div>
+            </div>
+    </div>
+</body>
+</html>
