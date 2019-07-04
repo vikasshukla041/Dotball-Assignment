@@ -232,6 +232,8 @@
     }
     .main-container .body-container .dotball-form .media-query {
         display: block;
+        padding-left: 15px;
+        padding-top: 30px;
     }
     .main-container .header {
         width: 100%;
